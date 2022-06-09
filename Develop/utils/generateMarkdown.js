@@ -53,7 +53,7 @@ function renderLicenseSection(license) {
     const badge = renderLicenseBadge(license);
     const link = renderLicenseLink(license);
     return `## License
-    [![License](${badge})(${link})]`
+    ![License](${badge})(${link})`
   }
 }
 
