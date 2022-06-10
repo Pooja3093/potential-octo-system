@@ -68,7 +68,7 @@ function gatherInfoAndGenerate(){
         type: 'checkbox',
         message: questions[8],
         name: 'license',
-        choices: ['Apache 2.0 License', 'BSD 3-Clause License', 'Eclipse Public License 1.0', 'GNU GPL v3', 'IBM Public License Version 1.0', 'The MIT License', 'Mozilla Public License 2.0', 'Open Database License (ODbL)'],
+        choices: ['None', 'Apache 2.0 License', 'BSD 3-Clause License', 'Eclipse Public License 1.0', 'GNU GPL v3', 'IBM Public License Version 1.0', 'The MIT License', 'Mozilla Public License 2.0', 'Open Database License (ODbL)'],
         }
     ])
     .then((response) => {
